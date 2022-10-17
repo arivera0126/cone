@@ -1,0 +1,25 @@
+
+.containerform{
+  color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+
+.contenedor{
+  margin-bottom: 20px;
+  /*background: #36A0FF;*/
+  color: black;
+
+}
+
+.contenedor > div{
+  background: rgba(255,255, 255, .2);
+  padding: 15px;
+  border: 1px solid #36A0FF;
+}

@@ -1,0 +1,49 @@
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color: #F7C331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #294cad;
+    --logohumano: "img\logogestionhumana.png";
+    --color1:#002E62 ;
+    --color2: #406EC3 ;
+    --color3: #6DC6CE ;
+    --color4: #389568 ;
+    --color5: #52BE8A ;
+  }
+
+.items {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.items a{
+    text-decoration: none;
+    color:var(--color1)
+  }
+
+.itemindi a{
+    text-decoration: none;
+    color:var(--text-color)
+    
+}
+
+.itemindi a:hover  {
+    text-decoration: none;
+    color:var(--primary-color)
+    
+}
+
+.itemindisection a{
+    text-decoration: none;
+    color:var(--primary-color)
+    
+}
+
+.itemindisection a:hover {
+    text-decoration: none;
+    color:var(--color3)
+    
+}

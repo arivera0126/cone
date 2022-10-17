@@ -1,0 +1,140 @@
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color: #F7C331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #294cad;
+    --logohumano: "img\logogestionhumana.png";
+    --color1:#002E62 ;
+    --color2: #406EC3 ;
+    --color3: #6DC6CE ;
+    --color4: #389568 ;
+    --color5: #52BE8A ;
+  }
+
+
+
+  /*formato títulos página INDEX.HTML*/
+  .itemb a{
+    text-decoration: none;
+    color:var(--color1)
+  }
+
+  .itemc a{
+    text-decoration: none;
+    color:var(--color2)
+  }
+
+  .items a{
+    text-decoration: none;
+    color:var(--color3)
+  }
+
+  .iteml a{
+    text-decoration: none;
+    color:var(--color4)
+    
+  }
+
+  .itemt a{
+    text-decoration: none;
+    color:var(--color5)
+  }
+
+
+  /* X-Small devices (portrait phones, less than 576px)*/
+
+  @media   (min-width: 100px) and (max-width: 374.98px) { 
+    .itemb a {font-size: 0.5rem;}
+    .itemc a {font-size: 0.5rem;}
+    .items a {font-size: 0.5rem;}
+    .iteml a {font-size: 0.5rem;}
+    .itemt a {font-size: 0.5rem;}
+  }
+
+   /*ubica mas abajo los items, los empareja con los iconos */
+  @media   (min-width: 100px) and (max-width: 374.98px) { 
+      .iteml, .itemt, .itemc, .items {margin-top: 3rem;}
+  }
+
+
+
+    @media   (min-width: 375px) and (max-width: 575.98px) { 
+      .itemb a {font-size: 0.8rem;}
+      .itemc a {font-size: 0.8rem;}
+      .items a {font-size: 0.8rem;}
+      .iteml a {font-size: 0.8rem;}
+      .itemt a {font-size: 0.8rem;}
+    }
+
+     /*ubica mas abajo los items, los empareja con los iconos */
+    @media   (min-width: 375px) and (max-width: 575.98px) { 
+      .iteml, .itemt, .itemc, .items {margin-top: 5.6rem;}
+    }
+
+
+    
+    @media   (min-width: 576px) and (max-width: 767.98px) { 
+      .itemb a {font-size: 1rem;}
+      .itemc a {font-size: 1rem;}
+      .items a {font-size: 1rem;}
+      .iteml a {font-size: 1rem;}
+      .itemt a {font-size: 1rem;}
+    }
+
+     /*ubica mas abajo los items, los empareja con los iconos */
+    @media   (min-width: 576px) and (max-width: 767.98px) { 
+      .iteml, .itemt, .itemc, .items {margin-top: 9rem;}
+    }
+    
+
+
+
+    @media   (min-width: 768px) and (max-width: 991.98px) { 
+      .itemb a {font-size: 1.3rem;}
+      .itemc a {font-size: 1.3rem;}
+      .items a {font-size: 1.3rem;}
+      .iteml a {font-size: 1.3rem;}
+      .itemt a {font-size: 1.3rem;}
+    }
+
+     /*ubica mas abajo los items, los empareja con los iconos */
+    @media   (min-width: 768px) and (max-width: 991.98px) { 
+      .iteml, .itemt, .itemc, .items {margin-top: 11rem;}
+    }
+
+
+    
+    @media   (min-width: 992px) and (max-width: 1199.98px) { 
+      .itemb a {font-size: 1.5rem;}
+      .itemc a {font-size: 1.5rem;}
+      .items a {font-size: 1.5rem;}
+      .iteml a {font-size: 1.5rem;}
+      .itemt a {font-size: 1.5rem;}
+    }
+
+     /*ubica mas abajo los items, los empareja con los iconos */
+    @media   (min-width: 992px) and (max-width: 1199.98px) { 
+      .iteml, .itemt, .itemc, .items {margin-top: 13rem;}
+    }
+
+
+
+    @media   (min-width: 1200px) and (max-width: 1399.98px) { 
+      .itemb a {font-size: 1.8rem;}
+      .itemc a {font-size: 1.8rem;}
+      .items a {font-size: 1.8rem;}
+      .iteml a {font-size: 1.8rem;}
+      .itemt a {font-size: 1.8rem;}
+    }
+
+     /*ubica mas abajo los items, los empareja con los iconos */
+    @media   (min-width: 1200px) and (max-width: 1399.98px) { 
+      .iteml, .itemt, .itemc, .items {margin-top: 14rem;}
+    }
+
+   
+
+    
